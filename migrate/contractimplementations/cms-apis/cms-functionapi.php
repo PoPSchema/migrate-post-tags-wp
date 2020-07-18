@@ -2,6 +2,8 @@
 
 namespace PoP\PostTags\WP;
 
+use PoP\PostTags\Facades\PostTagTypeAPIFacade;
+
 class FunctionAPI extends \PoP\Tags\WP\AbstractFunctionAPI implements \PoP\PostTags\FunctionAPI
 {
     public function __construct()
@@ -16,7 +18,8 @@ class FunctionAPI extends \PoP\Tags\WP\AbstractFunctionAPI implements \PoP\PostT
      */
     protected function getTaxonomyName(): string
     {
-        return 'post_tag';
+        $postTagTypeAPI = PostTagTypeAPIFacade::getInstance();
+        return $postTagTypeAPI->getPostTagTaxonomyName();
     }
     /**
      * Implement this function by the actual service
