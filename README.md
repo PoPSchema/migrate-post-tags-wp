@@ -7,7 +7,7 @@ Code to be migrated, from legacy PHP 5 code to modern PHP 7 code ([read more her
 Via Composer
 
 ``` bash
-composer require getpop/migrate-post-tags-wp
+composer require pop-schema/migrate-post-tags-wp
 ```
 
 ## Security
@@ -23,17 +23,17 @@ If you discover any security related issues, please email leo@getpop.org instead
 
 The MIT License (MIT). Please see [License File](LICENSE.md) for more information.
 
-[ico-version]: https://img.shields.io/packagist/v/getpop/post-tags-wp.svg?style=flat-square
+[ico-version]: https://img.shields.io/packagist/v/pop-schema/post-tags-wp.svg?style=flat-square
 [ico-license]: https://img.shields.io/badge/license-MIT-brightgreen.svg?style=flat-square
-[ico-travis]: https://img.shields.io/travis/getpop/post-tags-wp/master.svg?style=flat-square
-[ico-scrutinizer]: https://img.shields.io/scrutinizer/coverage/g/getpop/post-tags-wp.svg?style=flat-square
-[ico-code-quality]: https://img.shields.io/scrutinizer/g/getpop/post-tags-wp.svg?style=flat-square
-[ico-downloads]: https://img.shields.io/packagist/dt/getpop/post-tags-wp.svg?style=flat-square
+[ico-travis]: https://img.shields.io/travis/pop-schema/post-tags-wp/master.svg?style=flat-square
+[ico-scrutinizer]: https://img.shields.io/scrutinizer/coverage/g/pop-schema/post-tags-wp.svg?style=flat-square
+[ico-code-quality]: https://img.shields.io/scrutinizer/g/pop-schema/post-tags-wp.svg?style=flat-square
+[ico-downloads]: https://img.shields.io/packagist/dt/pop-schema/post-tags-wp.svg?style=flat-square
 
-[link-packagist]: https://packagist.org/packages/getpop/post-tags-wp
-[link-travis]: https://travis-ci.org/getpop/post-tags-wp
-[link-scrutinizer]: https://scrutinizer-ci.com/g/getpop/post-tags-wp/code-structure
-[link-code-quality]: https://scrutinizer-ci.com/g/getpop/post-tags-wp
-[link-downloads]: https://packagist.org/packages/getpop/post-tags-wp
+[link-packagist]: https://packagist.org/packages/pop-schema/post-tags-wp
+[link-travis]: https://travis-ci.org/pop-schema/post-tags-wp
+[link-scrutinizer]: https://scrutinizer-ci.com/g/pop-schema/post-tags-wp/code-structure
+[link-code-quality]: https://scrutinizer-ci.com/g/pop-schema/post-tags-wp
+[link-downloads]: https://packagist.org/packages/pop-schema/post-tags-wp
 [link-author]: https://github.com/leoloso
 [link-contributors]: ../../contributors

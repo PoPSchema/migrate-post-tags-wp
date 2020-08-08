@@ -1,6 +1,6 @@
 <?php
 
-namespace PoP\PostTags\WP;
+namespace PoPSchema\PostTags\WP;
 
 use PoP\Hooks\Facades\HooksAPIFacade;
 

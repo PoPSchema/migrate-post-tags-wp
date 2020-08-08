@@ -1,14 +1,14 @@
 <?php
 
-namespace PoP\PostTags\WP;
+namespace PoPSchema\PostTags\WP;
 
-use PoP\PostTags\Facades\PostTagTypeAPIFacade;
+use PoPSchema\PostTags\Facades\PostTagTypeAPIFacade;
 
-class FunctionAPI extends \PoP\Tags\WP\AbstractFunctionAPI implements \PoP\PostTags\FunctionAPI
+class FunctionAPI extends \PoPSchema\Tags\WP\AbstractFunctionAPI implements \PoPSchema\PostTags\FunctionAPI
 {
     public function __construct()
     {
-        \PoP\PostTags\FunctionAPIFactory::setInstance($this);
+        \PoPSchema\PostTags\FunctionAPIFactory::setInstance($this);
     }
 
     /**

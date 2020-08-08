@@ -6,7 +6,7 @@ Description: Implementation of WordPress functions for PoP CMS
 Plugin URI: https://getpop.org/
 Author: Leonardo Losoviz
 */
-namespace PoP\PostTags\WP;
+namespace PoPSchema\PostTags\WP;
 use PoP\Hooks\Facades\HooksAPIFacade;
 
 //-------------------------------------------------------------------------------------

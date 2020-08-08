@@ -1,5 +1,5 @@
 <?php
-namespace PoP\PostTags\WP;
+namespace PoPSchema\PostTags\WP;
 
 class Initialization
 {
