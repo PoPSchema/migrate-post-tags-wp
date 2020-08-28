@@ -8,6 +8,7 @@ class FunctionAPI extends \PoPSchema\Tags\WP\AbstractFunctionAPI implements \PoP
 {
     public function __construct()
     {
+        parent::__construct();
         \PoPSchema\PostTags\FunctionAPIFactory::setInstance($this);
     }
 
