@@ -1,6 +1,6 @@
 # (Temporary package) Migrate code to package: Post Tags for WordPress
 
-Code to be migrated, from legacy PHP 5 code to modern PHP 7 code ([read more here](https://github.com/leoloso/PoP#codebase-migration)). Target package description:  Implementation for WordPress of contracts from package "Post Tags"
+Code to be migrated, from legacy to modern PHP code ([read more here](https://github.com/leoloso/PoP#codebase-migration)). Target package description:  Implementation for WordPress of contracts from package "Post Tags"
 
 ## Install
 
@@ -9,6 +9,10 @@ Via Composer
 ``` bash
 composer require pop-schema/migrate-post-tags-wp
 ```
+
+## Development
+
+The source code is hosted on the [PoP monorepo](https://github.com/leoloso/PoP), under [`Schema/packages/migrate-post-tags-wp`](https://github.com/leoloso/PoP/tree/master/layers/Schema/packages/migrate-post-tags-wp).
 
 ## Security
 
@@ -36,4 +40,4 @@ The MIT License (MIT). Please see [License File](LICENSE.md) for more informatio
 [link-code-quality]: https://scrutinizer-ci.com/g/pop-schema/post-tags-wp
 [link-downloads]: https://packagist.org/packages/pop-schema/post-tags-wp
 [link-author]: https://github.com/leoloso
-[link-contributors]: ../../contributors
+[link-contributors]: ../../../../../../contributors
